@@ -144,6 +144,8 @@ Para obter as medidas Lead Time, Throughput e Work in Progress (WIP) usando o Co
 
 - **Throughput**: Embora o Control Chart no ZenHub não exiba diretamente o Throughput, você pode inferi-lo contando quantas issues foram concluídas dentro de um intervalo de tempo no gráfico. O eixo X do gráfico mostra o tempo, enquanto o eixo Y mostra as tarefas concluídas. Para calcular o Throughput, basta contar os pontos concluídos dentro de...
 
+- **Cycle Time:** O Cycle Time também é uma métrica valiosa quando analisada em um Control Chart. O Cycle Time representa o tempo que uma tarefa leva para ser concluída após seu início. Ao monitorar o Cycle Time no gráfico, você pode identificar variações no desempenho e garantir que o processo esteja dentro dos limites aceitáveis. Cada ponto no gráfico representa o Cycle Time de uma tarefa específica, e as linhas de controle (superior e inferior) ajudam a determinar se o processo está estável. Quando os pontos ultrapassam os limites de controle, isso pode indicar problemas, como gargalos ou ineficiências no processo, que devem ser investigados.
+
 ## 4. Milestones de Release no ZenHub
 A gestão eficaz de releases é fundamental para garantir a entrega contínua e organizada de funcionalidades e correções em um projeto de software. O ZenHub, integrado ao GitHub, oferece uma abordagem eficiente para planejar e monitorar o progresso de releases através da funcionalidade de milestones.
 
